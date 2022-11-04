@@ -33,7 +33,7 @@ Apply Material Swap.pas<br>
 ## Creation Kit Fixes
 
 [Run Steamless](https://github.com/Aurelianis/PRPPatchingScript/blob/main/MANUAL-RunSteamless.md) Follow the instructions carefully.<br>
-Download [F4 Creation Kit Fixes](https://www.nexusmods.com/fallout4/mods/51165). Be sure to follow the instructions carefully. There are some things you need to install to get this working properly.<br>
+Download [F4 Creation Kit Fixes](https://www.nexusmods.com/fallout4/mods/51165). Be sure to follow the instructions carefully. There are some things you need to install to get this working properly. The mod itself can be installed using Vortex. Just be sure to double-click and choose <b>Engine Injector</b> under <b>Mod Type</b>.<br>
 Download [f4ck_loader.exe](https://github.com/Perchik71/Fallout4Test/releases/download/1.6/f4ck_loader.7z) and extract it to your Fallout 4 installation directory.
 
 ## Install PRP
