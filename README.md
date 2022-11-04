@@ -15,7 +15,9 @@ Optional, but I have a folder D:\FO4Tools where I extract all the tools I list b
 [Steamless](https://github.com/atom0s/Steamless/releases/tag/v3.1.0.0)<br>
 [FO4Edit](https://www.nexusmods.com/fallout4/mods/2737)
 
-### The following xEdit (FO4Edit) scripts need to be extracted to the Edit Scripts folder where you extracted FO4Edit, i.e. D:\FO4Tools\FO4Edit\Edit Scripts
+### Download and install xEdit scripts
+
+The following xEdit (FO4Edit) scripts need to be extracted to the Edit Scripts folder where you extracted FO4Edit, i.e. D:\FO4Tools\FO4Edit\Edit Scripts
 
 [PrecombinePrevisSneakPeek.zip by SeargeDP](https://forums.nexusmods.com/index.php?/topic/5522717-fallout-4-optimization-and-performance-systems-explained/page-52#entry100828598)<br>
 01_CopyCELLsIntoAutoPreCalc.pas<br>
