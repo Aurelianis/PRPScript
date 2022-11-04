@@ -1,4 +1,7 @@
-<h1>Clean install of Fallout 4</h1>
+# Clean install of Fallout 4
+
+## This ensures you won't have any lingering files and/or ENB that could interfere with proper previsibine generation
+
 <ol>
 <li>Open <b>Steam</b>.</li>
 <li>Go to your library and right-click <b>Fallout 4</b>, then click <b>Properties...</b></li>
