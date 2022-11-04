@@ -23,8 +23,8 @@ Make sure you have the following plugins enabled in this order. If you are using
 2) Click <b>OK</b> on the <b>Module Selection</b> dialogue box.
 3) Wait for the plugins to load. 
 4) Click <b>OK</b> on the <b>Which ModGroups do you want to activate?</b> dialogue box (nothing should be checked). <b>NOTE:</b> if you want to remove this prompt, delete Unofficial Fallout 4 Patch.modgroups from your Fallout 4 Data folder.
-5) Expand the plugin you are patching and select the Cell and Worldspace records (ctrl-click).
-6) Right-click on Cell or Worldspace and choose <b>Deep copy as override into...</b>.
+5) Expand the plugin you are patching and select the <b>Cell</b> and <b>Worldspace</b> records (ctrl-click).
+6) Right-click on <b>Cell</b> or <b>Worldspace</b> and choose <b>Deep copy as override into...</b>.
 7) Select <b><new file>.esp</b> in the <b>Which files do you want to add these records to?</b> dialogue box and click <b>OK</b>
 8) Enter the name of your patch file (do not include the extension) and click <b>OK</b>.
 9) <b>Save</b>
