@@ -16,6 +16,12 @@ Optional, but I have a folder D:\FO4Tools where I extract all the tools I list b
 
 The following xEdit (FO4Edit) scripts need to be extracted to the Edit Scripts folder where you extracted FO4Edit, i.e. D:\FO4Tools\FO4Edit\Edit Scripts
 
-[PrecombinePrevisSneakPeek.zip by SeargeDP](https://forums.nexusmods.com/index.php?/topic/5522717-fallout-4-optimization-and-performance-systems-explained/page-52#entry100828598) You need 01_CopyCELLsIntoAutoPreCalc.pas & 03_MergeCombinedObjects.pas<br>
-[Pra’s FO4Edit Scripts](https://www.nexusmods.com/fallout4/mods/28898) You need Apply Material Swap.pas<br>
-[ModernPrecombines](https://github.com/Diskmaster/ModernPrecombines/tree/main/scripts) You need 1000101-Apply_Version_Control_Information_To_Forms.pas, 05_MergePreVis_patched.pas & 02_RemovePreCalcFromCELLsLeaveNoPrevis.pas<br>
+[PrecombinePrevisSneakPeek.zip by SeargeDP](https://forums.nexusmods.com/index.php?/topic/5522717-fallout-4-optimization-and-performance-systems-explained/page-52#entry100828598)<br>
+01_CopyCELLsIntoAutoPreCalc.pas<br>
+03_MergeCombinedObjects.pas<br>
+[Pra’s FO4Edit Scripts](https://www.nexusmods.com/fallout4/mods/28898)<br>
+Apply Material Swap.pas<br>
+[ModernPrecombines](https://github.com/Diskmaster/ModernPrecombines/tree/main/scripts)<br>
+1000101-Apply_Version_Control_Information_To_Forms.pas<br>
+05_MergePreVis_patched.pas<br>
+02_RemovePreCalcFromCELLsLeaveNoPrevis.pas<br>
