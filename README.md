@@ -43,7 +43,7 @@ You can use any mod manager for this. I'm familiar with Vortex, so any examples 
 Install [Previsibines Repair Pack (PRP)](https://www.nexusmods.com/fallout4/mods/46403) Vortex will come up with a notification stating there are multiple plugins. Enable all. PPF.esm is a master file that contains fixes. PRP.esp is an ESL flagged esp that regenerates previsibines based on changes made in PPF.esm.<br> 
 
 
-### You're ready to start!
+## You're ready to start!
 
 [New Plugins](https://github.com/Aurelianis/PRPPatchingScript/blob/main/MANUAL-NewPlugin.md)<br>
 [Patching Existing Plugin](https://github.com/Aurelianis/PRPPatchingScript/blob/main/MANUAL-PatchingPlugins.md)
