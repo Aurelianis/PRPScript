@@ -1,4 +1,4 @@
-# PRPPatchingScript
+# Regenerating Previsibines with PRP
 
 ## Before you begin:
 
