@@ -6,7 +6,7 @@ NOTE: Always keep a version of the plugin available before regenerating previsib
 
 ### Before you begin:
 
-Make sure you have the following plugins enabled (in this order):<br>
+Make sure you have the following plugins enabled in this order. If you are using Vortex, you may need to create a rule that your plugin Must Load After PRP.esp:<br>
 - Fallout4.esm
 - DLCRobot.esm
 - DLCWorkshop01.esm
@@ -19,4 +19,6 @@ Make sure you have the following plugins enabled (in this order):<br>
 - PRP.esp
 - YourPlugin.esp
 
+### Prepare Your Plugin
 
+1) Open FO4Edit.
