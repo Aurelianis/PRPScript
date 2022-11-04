@@ -44,3 +44,6 @@ Install [Previsibines Repair Pack (PRP)](https://www.nexusmods.com/fallout4/mods
 
 
 ### You're ready to start!
+
+[New Plugins](https://github.com/Aurelianis/PRPPatchingScript/blob/main/MANUAL-NewPlugin.md)<br>
+[Patching Existing Plugin](https://github.com/Aurelianis/PRPPatchingScript/blob/main/MANUAL-PatchingPlugins.md)
