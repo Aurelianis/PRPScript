@@ -22,3 +22,6 @@ Make sure you have the following plugins enabled in this order. If you are using
 ### Prepare Your Plugin
 
 1) Open FO4Edit.
+2) Click <b>OK</b> on the <b>Module Selection</b> dialogue box.
+3) Wait for the plugins to load. 
+4) Click <b>OK</b> on the <b>Which ModGroups do you want to activate?</b> dialogue box (nothing should be checked). NOTE: if you want to remove this prompt, delete Unofficial Fallout 4 Patch.modgroups from your Fallout 4 Data folder.
