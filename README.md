@@ -25,3 +25,9 @@ Apply Material Swap.pas<br>
 1000101-Apply_Version_Control_Information_To_Forms.pas<br>
 05_MergePreVis_patched.pas<br>
 02_RemovePreCalcFromCELLsLeaveNoPrevis.pas<br>
+
+## Creation Kit Fixes
+
+[Run Steamless](https://github.com/Aurelianis/PRPPatchingScript/blob/main/MANUAL-RunSteamless.md)<br>
+Download [F4 Creation Kit Fixes](https://www.nexusmods.com/fallout4/mods/51165). Be sure to follow the instructions carefully. There are some things you need to install to get this working properly.<br>
+Download [f4ck_loader.exe](https://github.com/Perchik71/Fallout4Test/releases/download/1.6/f4ck_loader.7z) and extract it to your Fallout 4 installation directory.
