@@ -9,5 +9,6 @@
 <li>Click <b>Browse</b>. This will open your Fallout 4 install directory.</li>
 <li>Delete all files in this directory.</li>
 <li>Go back to <b>Steam</b> and click <b>Verify integrity of game files...</b></li>
-<li>Wait for Steam to finish downloading the files</li>
+<li>Wait for Steam to finish downloading the files.</li>
+<li>Run Fallout 4 at least once. This is required for Steam to create the necessary registry entries.</li>
 </ol>
