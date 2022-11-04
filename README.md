@@ -13,7 +13,7 @@ Install [Fallout 4: Creation Kit](https://github.com/Aurelianis/PRPPatchingScrip
 Optional, but I have a folder D:\FO4Tools where I extract all the tools I list below.
 
 [Steamless](https://github.com/atom0s/Steamless/releases/tag/v3.1.0.0)<br>
-[FO4Edit](https://www.nexusmods.com/fallout4/mods/2737)
+[FO4Edit](https://www.nexusmods.com/fallout4/mods/2737)<br>
 [GeneratePrevisibines.ps1](https://github.com/Aurelianis/PRPPatchingScript/blob/main/GeneratePrevisibines.ps1)
 
 ### Download and install xEdit scripts
