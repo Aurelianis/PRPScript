@@ -36,4 +36,4 @@ Make sure you have the following plugins enabled in this order. If you are using
 13) Right-click your plugin and choose <b>Apply Script...</b>
 14) Choose <b>1000101-Apply_Version_Control_Information_To_Forms</b> from the <b>Script</b> dropdown, then click <b>OK</b>.
 15) <b>Save</b>.
-16) Exit xEdit.
+16) Exit FO4Edit.
