@@ -37,7 +37,7 @@ Download [f4ck_loader.exe](https://github.com/Perchik71/Fallout4Test/releases/do
 
 ## Install PRP
 
-You can use any mod manager for this. I'm familiar with Vortex, so I'll be using that for examples.
+You can use any mod manager for this. I'm familiar with Vortex, so any examples will be for Vortex.
 
 Install [Previsibines Repair Pack (PRP)](https://www.nexusmods.com/fallout4/mods/46403) Vortex will come up with a notification stating there are multiple plugins. Enable all. PPF.esm is a master file that contains fixes. PRP.esp is an ESL flagged esp that regenerates previsibines based on changes made in PPF.esm.<br> 
 
