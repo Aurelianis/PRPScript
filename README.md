@@ -31,6 +31,15 @@ Apply Material Swap.pas<br>
 
 ## Creation Kit Fixes
 
-[Run Steamless](https://github.com/Aurelianis/PRPPatchingScript/blob/main/MANUAL-RunSteamless.md)<br>
+[Run Steamless](https://github.com/Aurelianis/PRPPatchingScript/blob/main/MANUAL-RunSteamless.md) Follow the instructions carefully.<br>
 Download [F4 Creation Kit Fixes](https://www.nexusmods.com/fallout4/mods/51165). Be sure to follow the instructions carefully. There are some things you need to install to get this working properly.<br>
 Download [f4ck_loader.exe](https://github.com/Perchik71/Fallout4Test/releases/download/1.6/f4ck_loader.7z) and extract it to your Fallout 4 installation directory.
+
+## Install PRP
+
+You can use any mod manager for this. I'm familiar with Vortex, so I'll be using that for examples.
+
+Install [Previsibines Repair Pack (PRP)](https://www.nexusmods.com/fallout4/mods/46403) Vortex will come up with a notification stating there are multiple plugins. Enable all. PPF.esm is a master file that contains fixes. PRP.esp is an ESL flagged esp that regenerates previsibines based on changes made in PPF.esm.<br> 
+
+
+### You're ready to start!
