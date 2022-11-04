@@ -26,7 +26,7 @@ Make sure you have the following plugins enabled in this order. If you are using
 5) Expand the plugin you are patching and select the <b>Cell</b> and <b>Worldspace</b> records (ctrl-click).
 6) Right-click on <b>Cell</b> or <b>Worldspace</b> and choose <b>Deep copy as override into...</b>.
 7) Select <b>new file.esp</b> in the <b>Which files do you want to add these records to?</b> dialogue box and click <b>OK</b>
-8) Enter the name of your patch file (do not include the extension) and click <b>OK</b>.
+8) Enter the name of your patch file (do not include the extension) and click <b>OK</b>. I normally use PRP-OriginalPluginName.
 9) <b>Save</b>
 10) Right-click your new plugin and choose <b>Apply Script...</b>
 11) Choose <b>01_CopyCELLsIntoAutoPreCalc</b> from the <b>Script</b> dropdown, then click <b>OK</b>.
