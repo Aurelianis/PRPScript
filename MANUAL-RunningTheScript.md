@@ -23,3 +23,8 @@ You should have prepared your plugin using the appropriate instructions:
 3) Enter the path to xEdit, include the exe, i.e. D:\FO4Tools\FO4Edit\FO4Edit.exe <b>NOTE:</b> This information will be saved to a text file, so the next time you run the script you will not see this prompt.
 4) xEdit is now launching. Click OK, then Run 03_MergeCombinedObjects on PRP-BTInteriors_Project.esp. Save and exit.
 5) xEdit is now launching. Click OK, then Run 05_MergePreVis_patched on PRP-BTInteriors_Project.esp. Save and exit.
+
+## You're done!
+
+1) You will need the esp, ba2, csg & cdx files to use the patch.
+2) Load order should be PPF.esm, PluginToPatch.esp, PRP.esp, Patch.esp
