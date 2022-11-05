@@ -21,3 +21,5 @@ This is a PowerShell Script to assist in the generatation of precombined meshes 
 2) A basic understanding of xEdit. I go into a lot of detail in the instructions so pretty much anyone should be able to follow along but it does help to have at least used xEdit a few times.
 3) Hard drive space. Precombine meshes can take up a lot of space and it takes even more when generating them.
 4) Patience. It can take hours to get the patch ready, and hours to regenerate the previsibines depending on how many cells the mod touches. For example, my PRP patch for Beantown Interiors took over an hour to prep and another 3 hours to regenerte previsibines.
+
+## Read the Wiki for Instructions
