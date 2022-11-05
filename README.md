@@ -1,4 +1,19 @@
-# Regenerating Previsibines with PRP
+# What is this Script?
+
+This is a PowerShell Script to assist in the generatation of precombined meshes and previs for Fallout 4. It is specifically for using PRP as a master.
+
+1) Generates precombines using the Creation Kit. Command line CreationKit.exe -GeneratePrecombined:pluginname.esp clean all
+2) Launches xEdit so that you can apply the 03_MergeCombinedObjects script on the patch plugin. Command line FO4Edit.exe -nobuildrefs -quickedit:CombinedObjects.esp
+3) Deletes CombinedObject.esp
+4) Compresses psg to csg and then deletes the psg file. Command line CreationKit.exe -CompressPSG:pluginname.esp
+5) Adds the precombined meshes to a ba2 archive file to speed up previs generation. There is a limit to the number of precombined meshes you can have as loose files when generating Previs, so packing them ensures you don't reach this limit. Command line Archive2.exe ".\Data\Meshes" -c=".\Data\pluginname - Main.ba2"
+6) Generates CDX (Cell Index file). Command line: CreationKit.exe -BuildCDX:pluginname.esp
+7) Generates Previs. Command line CreationKit.exe -GeneratePreVisData:pluginname.esp clean all
+8) Launches xEdit so you can apply the 05_MergePreVis_patched script on the patch plugin. Command line FO4Edit.exe -nobuildrefs -quickedit:PreVis.esp
+9) Deletes PreVis.esp.
+10) Extracts the archive created in step 5, then creates a new archive with all the meshes and previs (vis folder). Command line Archive2.exe ".\Data\pluginname - Main.ba2" -e=".\Data" then Archive2.exe ".\Data\Meshes,.\Data\Vis" -c=".\Data\pluginname - Main.ba2"
+11) Deletes the Meshes and Vis folders.
+12) Cleans the esp. FO4Edit.exe -qac -autoexit -autoload pluginname.esp
 
 ## What do I need to get started?
 
@@ -6,53 +21,3 @@
 2) A basic understanding of xEdit. I go into a lot of detail in the instructions so pretty much anyone should be able to follow along but it does help to have at least used xEdit a few times.
 3) Hard drive space. Precombine meshes can take up a lot of space and it takes even more when generating them.
 4) Patience. It can take hours to get the patch ready, and hours to regenerate the previsibines depending on how many cells the mod touches. For example, my PRP patch for Beantown Interiors took over an hour to prep and another 3 hours to regenerte previsibines.
-
-## Before you begin:
-
-Perform a [Clean Install of Fallout 4](https://github.com/Aurelianis/PRPScript/wiki/Clean-Install-of-Fallout-4).
-
-## Install Tools
-
-Install [Fallout 4: Creation Kit](https://github.com/Aurelianis/PRPScript/wiki/Install-Creation-Kit).
-
-### Download and extract the following:
-
-To keep everything organized, create a folder and extract the following tools to that folder. I use D:\FO4Tools for example.
-
-[Steamless](https://github.com/atom0s/Steamless/releases/tag/v3.1.0.0)<br>
-[FO4Edit](https://www.nexusmods.com/fallout4/mods/2737)<br>
-[GeneratePrevisibines.ps1](https://github.com/Aurelianis/PRPPatchingScript/blob/main/GeneratePrevisibines.ps1)
-
-### Download and install xEdit scripts
-
-The following xEdit (FO4Edit) scripts need to be extracted to the Edit Scripts folder where you extracted FO4Edit, i.e. D:\FO4Tools\FO4Edit\Edit Scripts
-
-[PrecombinePrevisSneakPeek.zip by SeargeDP](https://forums.nexusmods.com/index.php?/topic/5522717-fallout-4-optimization-and-performance-systems-explained/page-52#entry100828598)<br>
-01_CopyCELLsIntoAutoPreCalc.pas<br>
-03_MergeCombinedObjects.pas<br>
-[Pra’s FO4Edit Scripts](https://www.nexusmods.com/fallout4/mods/28898)<br>
-Apply Material Swap.pas<br>
-[ModernPrecombines](https://github.com/Diskmaster/ModernPrecombines/tree/main/scripts)<br>
-1000101-Apply_Version_Control_Information_To_Forms.pas<br>
-05_MergePreVis_patched.pas<br>
-02_RemovePreCalcFromCELLsLeaveNoPrevis.pas<br>
-
-## Creation Kit Fixes
-
-[Run Steamless](https://github.com/Aurelianis/PRPScript/wiki/Using-Steamless) Follow the instructions carefully.<br>
-Download [F4 Creation Kit Fixes](https://www.nexusmods.com/fallout4/mods/51165). Be sure to follow the instructions carefully. There are some things you need to install to get this working properly. The mod itself can be installed using Vortex. Just be sure to double-click and choose <b>Engine Injector</b> under <b>Mod Type</b>.
-
-## Install PRP
-
-You can use any mod manager for this. I'm familiar with Vortex, so any examples will be for Vortex.
-
-Install [Previsibines Repair Pack (PRP)](https://www.nexusmods.com/fallout4/mods/46403) Vortex will come up with a notification stating there are multiple plugins. Enable all. PPF.esm is a master file that contains fixes. PRP.esp is an ESL flagged esp that regenerates previsibines based on changes made in PPF.esm.<br> 
-
-
-## You're ready to start!
-
-[New Plugins](https://github.com/Aurelianis/PRPScript/wiki/Generating-Previsibines-for-a-New-Plugin)<br>
-[Patching Existing Plugin](https://github.com/Aurelianis/PRPScript/wiki/Patching-Existing-Plugins)
-
-
-#### If you are going to be doing a lot of patching and have the space, once you have completed the initial setup, make a copy of your Fallout 4 install folder. When you are done with patching, rename the Fallout 4 folder to Fallout 4 - Dev (or something that makes sense to you) and then rename the copy you made to Fallout 4. Then you can use it for playing the game. When you want to do another patch, rename Fallout 4 to Fallout 4 - Prod and Fallout 4 - Dev to Fallout 4. You can easily switch back and forth this way. If you use Vortex, be sure to shut it down before rename the folders.
