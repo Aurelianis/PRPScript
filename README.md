@@ -9,11 +9,11 @@
 
 ## Before you begin:
 
-Perform a [Clean install of Fallout 4](https://github.com/Aurelianis/PRPPatchingScript/blob/main/MANUAL-FO4CleanInstall.md).
+Perform a [Clean Install of Fallout 4](https://github.com/Aurelianis/PRPScript/wiki/Clean-Install-of-Fallout-4).
 
 ## Install Tools
 
-Install [Fallout 4: Creation Kit](https://github.com/Aurelianis/PRPPatchingScript/blob/main/MANUAL-InstallCreationKit.md).
+Install [Fallout 4: Creation Kit](https://github.com/Aurelianis/PRPScript/wiki/Install-Creation-Kit).
 
 ### Download and extract the following:
 
@@ -39,7 +39,7 @@ Apply Material Swap.pas<br>
 
 ## Creation Kit Fixes
 
-[Run Steamless](https://github.com/Aurelianis/PRPPatchingScript/blob/main/MANUAL-RunSteamless.md) Follow the instructions carefully.<br>
+[Run Steamless](https://github.com/Aurelianis/PRPScript/wiki/Using-Steamless) Follow the instructions carefully.<br>
 Download [F4 Creation Kit Fixes](https://www.nexusmods.com/fallout4/mods/51165). Be sure to follow the instructions carefully. There are some things you need to install to get this working properly. The mod itself can be installed using Vortex. Just be sure to double-click and choose <b>Engine Injector</b> under <b>Mod Type</b>.
 
 ## Install PRP
@@ -51,8 +51,8 @@ Install [Previsibines Repair Pack (PRP)](https://www.nexusmods.com/fallout4/mods
 
 ## You're ready to start!
 
-[New Plugins](https://github.com/Aurelianis/PRPPatchingScript/blob/main/MANUAL-NewPlugin.md)<br>
-[Patching Existing Plugin](https://github.com/Aurelianis/PRPPatchingScript/blob/main/MANUAL-PatchingPlugins.md)
+[New Plugins](https://github.com/Aurelianis/PRPScript/wiki/Generating-Previsibines-for-a-New-Plugin)<br>
+[Patching Existing Plugin](https://github.com/Aurelianis/PRPScript/wiki/Patching-Existing-Plugins)
 
 
 #### If you are going to be doing a lot of patching and have the space, once you have completed the initial setup, make a copy of your Fallout 4 install folder. When you are done with patching, rename the Fallout 4 folder to Fallout 4 - Dev (or something that makes sense to you) and then rename the copy you made to Fallout 4. Then you can use it for playing the game. When you want to do another patch, rename Fallout 4 to Fallout 4 - Prod and Fallout 4 - Dev to Fallout 4. You can easily switch back and forth this way. If you use Vortex, be sure to shut it down before rename the folders.
