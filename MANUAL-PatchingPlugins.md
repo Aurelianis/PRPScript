@@ -50,7 +50,7 @@ Make sure you have the following plugins enabled in this order. If you are using
 23) Right-click your plugin and choose <b>Sort Masters (to match current load order)</b>.
 24) <b>Save</b>.
 25) Right-click your plugin and choose <b>Apply Filter (selected files only)</b>
-26) Check <b>by Record Signature</b> and scroll down to <b>NAVM - Navigation Mesh</b> and select it. Make sure nothing else is selected and click Filter.
+26) Check <b>by Record Signature</b> and scroll down to <b>NAVM - Navigation Mesh</b> and select it. Also select <b>Flatten Blocks/Sub-Blocks</b> and <b>Flatten Cell Children</b>. This makes it a lot easier to remove the entries.
 27) Remove all Navigation Mesh entries from the new patch plugin. You need to drill down to the Navigation Mesh record. Do not remove anything above it.
 28) Right-click and choose Remove Filter.
 29) <b>Save</b>.
