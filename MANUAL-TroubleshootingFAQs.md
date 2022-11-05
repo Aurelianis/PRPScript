@@ -9,3 +9,8 @@ Easiest way is to open the plugin in xEdit and expand the Cell and/or Worldspace
 
 ### Error about missing registry entries when starting FO4Edit
 You did not start Fallout 4 at least once after performing a clean install.
+
+### Error when running GeneratePrevisibines.ps1 cannot be loaded because the execution of scripts is disabled on this system.
+Either bypass the execution for the script using powershell -ExecutionPolicy ByPass -File GeneratePrevisibines.ps1
+OR
+Change the policy using Set-ExecutionPolicy RemoteSigned and Type [A] for Yes To All
