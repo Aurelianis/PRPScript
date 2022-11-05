@@ -11,8 +11,9 @@ if (!(Test-Path "FO4Path.txt")) {
    $FO4Directory = get-Content "FO4Path.txt"
 }
 
-$CreationKit = "$($FO4Directory)\f4ck_loader.exe"
+$CreationKit = "$($FO4Directory)\CreationKit.exe"
 $FO4DataPath = "$($FO4Directory)\Data"
+$Archive2 = "$($FO4Directory)\Tools\Archive2\Archive2.exe"
 
 #Get and save xEdit path
 if (!(Test-Path "xEditPath.txt")) { 
@@ -29,9 +30,9 @@ Write-Host "Using $CreationKit for generation"
 
 #Start generating precombines
 if (Test-Path $CreationKit) {
-   Write-Host -f Yellow "Generating Precombines..."
-   Start-Process -FilePath $CreationKit -ArgumentList "-GeneratePrecombined:$PatchFileName clean all" -wait
-   Write-Host -f Green "Done"
+  # Write-Host -f Yellow "Generating Precombines..."
+  # Start-Process -FilePath $CreationKit -ArgumentList "-GeneratePrecombined:$PatchFileName clean all" -wait
+  # Write-Host -f Green "Done"
    Write-Host -f Yellow "xEdit is now launching. Click OK, then Run 03_MergeCombinedObjects on $($PatchFileName). Save and exit."
    Start-Process -FilePath $xEditPath -ArgumentList "-nobuildrefs -quickedit:CombinedObjects.esp" -wait
    Remove-item "$($FO4DataPath)\CombinedObjects.esp"
@@ -50,6 +51,12 @@ if (Test-Path $CreationKit) {
    Write-Host -f Red "$($CreationKit) not found. Please make sure you followed the initial setup and try again."
 }
 
+#Create Temp Archive
+Write-Host -f Yellow "Creating Archive to accelerate generation..."
+Start-Process -FilePath $Archive2 -ArgumentList "`"$($FO4DataPath)\Meshes`" -c=`"$($FO4DataPath)\$PatchName - Main.ba2`"" -wait
+Remove-Item -Path "$($FO4DataPath)\Meshes\" -Recurse
+Write-Host -f Green "Done"
+
 #GenerateCDX
 if (Test-Path $CreationKit) {
    Write-Host -f Yellow "Generating CDX..."
@@ -58,8 +65,6 @@ if (Test-Path $CreationKit) {
 } else {
    Write-Host -f Red "$($CreationKit) not found. Please make sure you followed the initial setup and try again."
 }
-
-Start-Process -FilePath $xEditPath -ArgumentList "-qac -autoexit -autoload $PatchFileName" -wait
 	
 #Generate PREVIS
 if (Test-Path $CreationKit) {
@@ -72,6 +77,13 @@ if (Test-Path $CreationKit) {
 } else {
    Write-Host -f Red "$($CreationKit) not found. Please make sure you followed the initial setup and try again."
 }
+
+#ARCHIVE
+Write-Host -f Yellow "Adding New Files to Archive..." 
+Start-Process -FilePath $Archive2 "`"$($FO4DataPath)\$PatchName - Main.ba2`" -e=`"$($FO4DataPath)`"" -wait
+Start-Process -FilePath $Archive2 -ArgumentList "`"$($FO4DataPath)\Meshes`",`"$($FO4DataPath)\Vis`" -c=`"$($FO4DataPath)\$PatchName - Main.ba2`"" -wait
+Remove-Item -Path "$($FO4DataPath)\Vis\","$($FO4DataPath)\Meshes\" -Recurse
+Write-Host -f Green "Done"
 	
 #Clean ESP
 Write-Host -f Yellow "Cleaning the ESP..."
