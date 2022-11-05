@@ -11,6 +11,6 @@ Easiest way is to open the plugin in xEdit and expand the Cell and/or Worldspace
 You did not start Fallout 4 at least once after performing a clean install.
 
 ### Error when running GeneratePrevisibines.ps1 cannot be loaded because the execution of scripts is disabled on this system.
-Either bypass the execution for the script using powershell -ExecutionPolicy ByPass -File GeneratePrevisibines.ps1
-OR
-Change the policy using Set-ExecutionPolicy RemoteSigned and Type [A] for Yes To All
+Either bypass the execution for the script using the command <b>powershell -ExecutionPolicy ByPass -File GeneratePrevisibines.ps1</b><br>
+OR<br>
+Change the policy using <b>Set-ExecutionPolicy RemoteSigned</b> and then hit A for Yes To All
