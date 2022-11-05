@@ -88,4 +88,4 @@ Write-Host -f Green "Done"
 #Clean ESP
 Write-Host -f Yellow "Cleaning the ESP..."
 Start-Process -FilePath $xEditPath -ArgumentList "-qac -autoexit -autoload $PatchFileName" -wait
-Write-Host -f Green "All done! Use Archive2 to create a ba2 file containing Meshes\Precombined and Vis folders"
+Write-Host -f Green "All done! You will need the esp, ba2, csg & cdx files to use the patch. Load order should be PPF.esm, PluginToPatch.esp, PRP.esp, Patch.esp"
