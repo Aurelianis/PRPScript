@@ -1,2 +1,2 @@
-- <b>CannibalToast</b> for this [script](https://github.com/CannibalToast/ToastPRPScript). Althought I didn't have much luck getting it to work on my system, I was able to get a lot of ideas in order to create this script.
+- <b>CannibalToast</b> for this [script](https://github.com/CannibalToast/ToastPRPScript). Althought I wasn't able to get it to work on my system as is, I was able to get a lot of ideas in order to create this script.
 - <b>Diskmaster/Starhammer/BenRierimanu</b> for [PRP](https://www.nexusmods.com/fallout4/mods/46403) and for the [documentation](https://github.com/Diskmaster/ModernPrecombines/blob/main/Creating_PRP_patches_for_other_mods.md) on creating patches.
