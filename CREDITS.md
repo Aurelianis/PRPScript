@@ -1,0 +1,2 @@
+- <b>CannibalToast</b> for his [script](https://github.com/CannibalToast/ToastPRPScript). Althought I didn't have much luck getting it to work on my system, I was able to get a lot of ideas in order to create this script.
+- <b>Diskmaster/Starhammer/BenRierimanu</b> for [PRP](https://www.nexusmods.com/fallout4/mods/46403) 
