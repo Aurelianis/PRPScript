@@ -27,3 +27,6 @@ You did not start Fallout 4 at least once after performing a clean install.
 Either bypass the execution for the script using the command <b>powershell -ExecutionPolicy ByPass -File GeneratePrevisibines.ps1</b><br>
 OR<br>
 Change the policy using <b>Set-ExecutionPolicy RemoteSigned</b> and then hit A for Yes To All
+
+### CK crashed
+The CK may crash with an exception 0xc0000005. I've seen this when I had a plugin file with errors (this is why I recommend error checking). I've also seen this when I had a plugin that I intentionally created ITMs (Identical to Master) in order to force a cell to generate previsibines. Once I cleaned the plugin of ITMs, it worked fine.
