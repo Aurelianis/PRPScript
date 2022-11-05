@@ -33,7 +33,7 @@ Make sure you have the following plugins enabled in this order. If you are using
 12) Click <b>No</b> in the Confirm dialogue box (this selection uses the last loaded plugin, which is your patch plugin). <b>NOTE:</b> This may not actually do anything if the mod author hasn't regenerated previsibines, but I normally go ahead and run it anyway.
 13) <b>Save</b>.
 14) Right-click your new plugin and choose <b>Apply Script...</b>
-15) Choose <b>02_RemovePreCalcFromCELLs</b> from the <b>Script</b> dropdown, then click <b>OK</b> (This removes any generated previsibines). 
+15) Choose <b>02_RemovePreCalcFromCELLsLeaveNoPrevis</b> from the <b>Script</b> dropdown, then click <b>OK</b> (This removes any generated previsibines). 
 16) <b>Save</b>.
 17) Right-click your new plugin and choose <b>Apply Script...</b>
 18) Choose <b>Apply Material Swap</b> from the <b>Script</b> dropdown, then click <b>OK</b>.
