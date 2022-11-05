@@ -63,4 +63,6 @@ Make sure you have the following plugins enabled in this order. If you are using
 
 ## Run the PowerShell script
 
+### Before running the script, backup the plugin so you can easily revert back if something goes wrong.
+
 [Running the PowerShell Script](https://github.com/Aurelianis/PRPPatchingScript/blob/main/MANUAL-RunningTheScript.md)
