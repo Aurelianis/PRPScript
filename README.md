@@ -17,7 +17,7 @@ Install [Fallout 4: Creation Kit](https://github.com/Aurelianis/PRPPatchingScrip
 
 ### Download and extract the following:
 
-To keep everything organized, create a folder and the following tools to that folder. I use D:\FO4Tools for example.
+To keep everything organized, create a folder and extract the following tools to that folder. I use D:\FO4Tools for example.
 
 [Steamless](https://github.com/atom0s/Steamless/releases/tag/v3.1.0.0)<br>
 [FO4Edit](https://www.nexusmods.com/fallout4/mods/2737)<br>
