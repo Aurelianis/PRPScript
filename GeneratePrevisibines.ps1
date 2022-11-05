@@ -34,15 +34,15 @@ if (Test-Path $CreationKit) {
    Write-Host -f Green "Done"
    Write-Host -f Yellow "xEdit is now launching. Click OK, then Run 03_MergeCombinedObjects on $($PatchFileName). Save and exit."
    Start-Process -FilePath $xEditPath -ArgumentList "-nobuildrefs -quickedit:CombinedObjects.esp" -wait
-   Remove-item "$($DataPath)\CombinedObjects.esp"
+   Remove-item "$($FO4DataPath)\CombinedObjects.esp"
    Write-Host -f Yellow "Compressing PSG..."
    Start-Process -FilePath $CreationKit -ArgumentList "-CompressPSG:$PatchFileName" -wait
    Write-Host -f Green "Done"
-   if (Test-Path "$($DataPath)\$PatchName - Geometry.csg") {
-      Remove-Item -Path "$($DataPath)\$PatchName - Geometry.psg"
+   if (Test-Path "$($FO4DataPath)\$PatchName - Geometry.csg") {
+      Remove-Item -Path "$($FO4DataPath)\$PatchName - Geometry.psg"
    } else {
       Write-Host -f Red "Failure generating precombines. Cleaning up..."
-      Remove-Item -Path "$($DataPath)\$PatchFileName","$($DataPath)\$PatchName.cdx","$($DataPath)\$PatchName - Geometry.csg"
+      Remove-Item -Path "$($FO4DataPath)\$PatchFileName","$($FO4DataPath)\$PatchName.cdx","$($FO4DataPath)\$PatchName - Geometry.csg"
       Write-Host -f Green "Done. Please restart the script."
       exit
    }
@@ -64,9 +64,9 @@ if (Test-Path $CreationKit) {
    Write-Host -f Yellow "Generating PreVis..."
    Start-Process -FilePath $CreationKit -ArgumentList "-GeneratePreVisdata:$PatchFileName clean all" -wait
    Write-Host -f Green "Done"
-   Write-Host -f Yellow "xEdit is now launching. Click OK, then Run 05_MergePreVis on $($PatchFileName). Save and exit."
+   Write-Host -f Yellow "xEdit is now launching. Click OK, then Run 05_MergePreVis_patched on $($PatchFileName). Save and exit."
    Start-Process -FilePath $xEditPath -ArgumentList "-nobuildrefs -quickedit:PreVis.esp" -wait
-   Remove-Item -Path "$($DataPath)\PreVis.esp"
+   Remove-Item -Path "$($FO4DataPath)\PreVis.esp"
 } else {
    Write-Host -f Red "$($CreationKit) not found. Please make sure you followed the initial setup and try again."
 }
