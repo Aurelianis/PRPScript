@@ -58,6 +58,8 @@ if (Test-Path $CreationKit) {
 } else {
    Write-Host -f Red "$($CreationKit) not found. Please make sure you followed the initial setup and try again."
 }
+
+Start-Process -FilePath $xEditPath -ArgumentList "-qac -autoexit -autoload $PatchFileName" -wait
 	
 #Generate PREVIS
 if (Test-Path $CreationKit) {
