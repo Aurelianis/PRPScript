@@ -11,7 +11,7 @@ If you don't know how to do this, click <a href="https://github.com/Aurelianis/P
 4) Select <b>Fallout 4: Creation Kit</b> from the drowndown.
 5) Follow the prompts to download and install the Creation Kit.
 6) Wait for Steam to finish downloading the files.
-7) Open Creation Kit and select Yes when prompted to unpack Base.zip.
+7) Open <b>Creation Kit</b> and select <b>Yes</b> when prompted to unpack Base.zip.
 
 ## Reinstall
 
@@ -20,4 +20,4 @@ If you don't know how to do this, click <a href="https://github.com/Aurelianis/P
 3) Click <b>LOCAL FILES</b>.
 4) Click <b>Verify integrity of game files...</b>.
 5) Wait for Steam to finish downloading the files.
-6) Open Creation Kit and select Yes when prompted to unpack Base.zip.
+6) Open <b>Creation Kit</b> and select <b>Yes</b> when prompted to unpack Base.zip.
