@@ -47,3 +47,6 @@ Install [Previsibines Repair Pack (PRP)](https://www.nexusmods.com/fallout4/mods
 
 [New Plugins](https://github.com/Aurelianis/PRPPatchingScript/blob/main/MANUAL-NewPlugin.md)<br>
 [Patching Existing Plugin](https://github.com/Aurelianis/PRPPatchingScript/blob/main/MANUAL-PatchingPlugins.md)
+
+
+### If you are going to be doing a lot of patching and have the space, once you have completed the initial setup, make a copy of your Fallout 4 install folder. When you are done with patching, rename the Fallout 4 folder to Fallout 4 - Dev (or something that makes sense to you) and then rename the copy you made to Fallout 4. Then you can use it for playing the game. When you want to do another patch, rename Fallout 4 to Fallout 4 - Prod and Fallout 4 - Dev to Fallout 4. You can easily switch back and forth this way. If you use Vortex, be sure to shut it down before rename the folders.
