@@ -14,8 +14,8 @@ Make sure you have the following plugins enabled in this order. If you are using
 - DLCNukaWorld.esm
 - Unofficial Fallout 4 Patch.esp
 - PPF.esm
-- PRP.esp
 - PluginToPatch.esp
+- PRP.esp
 
 ### Prepare Your Plugin
 
