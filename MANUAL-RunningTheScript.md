@@ -20,3 +20,4 @@ You should have prepared your plugin using the appropriate instructions:
 2) Enter the path to your Fallout 4 installation, i.e. D:\SteamLibrary\steamapps\common\Fallout 4 <b>NOTE:</b> This information will be saved to a text file, so the next time you run the script you will not see this prompt.
 3) Enter the path to xEdit, include the exe, i.e. D:\FO4Tools\FO4Edit\FO4Edit.exe <b>NOTE:</b> This information will be saved to a text file, so the next time you run the script you will not see this prompt.
 4) xEdit is now launching. Click OK, then Run 03_MergeCombinedObjects on PRP-BTInteriors_Project.esp. Save and exit.
+5) xEdit is now launching. Click OK, then Run 05_MergePreVis_patched on PRP-BTInteriors_Project.esp. Save and exit.
