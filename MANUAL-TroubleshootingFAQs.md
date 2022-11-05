@@ -3,7 +3,7 @@
 ## FAQs
 
 ### What does the script do?
-1) Generates precombines using the Creation Kit.
+1) Generates precombines using the Creation Kit (command line CreationKit.exe -GeneratePrecombined:pluginname.esp clean all)
 2) Launches xEdit so that you can apply the 03_MergeCombinedObjects script on the patch plugin.
 3) Deletes CombinedObject.esp
 4) Compresses psg to csg and then deletes the psg file.
