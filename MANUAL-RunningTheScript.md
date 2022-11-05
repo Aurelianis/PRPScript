@@ -11,6 +11,8 @@ You should have prepared your plugin using the appropriate instructions:
 2) Enter "cd pathtoscript" without quotes and hit enter. (i.e. cd D:\FO4Tools\PRPScript)
 3) Enter "./GeneratePrevisibines.ps1" without quotes and hit enter.
 4) Follow the prompts on the screen. There will be some interaction requires, such as running scripts in xEdit.
+5) DO NOT try to do anyting else on your PC when running this script. 
+6) Depending on how many cells are touched, this could take quite some time to complete.
 
 ## Prompts
 
