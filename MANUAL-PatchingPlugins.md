@@ -55,7 +55,7 @@ Make sure you have the following plugins enabled in this order. If you are using
 28) Right-click and choose Remove Filter.
 29) <b>Save</b>.
 30) You can repeat steps 25-26 to verify all Navigation Mesh records have been removed.
-31) Drill down through each cell and ensure that there is at least one record under Temporary. If not, Copy as override anything in that cell to create an intentional ITM (Identical to Master) record.
+31) Drill down and if there are any empty cells after removing Navmesh records, delete those cell headers. (Modifying only Navmesh does not break precombines so no need to regenerate for those cells).
 32) Right-click your plugin and choose <b>Apply Script...</b>
 33) Choose <b>1000101-Apply_Version_Control_Information_To_Forms</b> from the <b>Script</b> dropdown, then click <b>OK</b>.
 34) <b>Save</b>.
