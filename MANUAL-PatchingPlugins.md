@@ -29,20 +29,21 @@ Make sure you have the following plugins enabled in this order. If you are using
 8) Enter the name of your patch file (do not include the extension) and click <b>OK</b>. I normally use PRP-OriginalPluginName.
 9) <b>Save</b>
 10) Right-click your new plugin and choose <b>Apply Script...</b>
-11) Choose <b>01_CopyCELLsIntoAutoPreCalc</b> from the <b>Script</b> dropdown, then click <b>OK</b>.
-12) <b>Save</b>.
-13) Right-click your new plugin and choose <b>Apply Script...</b>
-14) Choose <b>02_RemovePreCalcFromCELLs</b> from the <b>Script</b> dropdown, then click <b>OK</b>.
-15) <b>Save</b>.
-16) Right-click your new plugin and choose <b>Apply Script...</b>
-17) Choose <b>Apply Material Swap</b> from the <b>Script</b> dropdown, then click <b>OK</b>.
-18) <b>Save</b>.  
-19) Right-click your plugin and choose <b>Add Masters...</b>.
-20) Select all options (should be every plugin listed above except Fallout4.esm & YourPlugin.esp) and click <b>OK</b>.
-21) <b>Save</b>.
-22) Right-click your plugin and choose <b>Sort Masters (to match current load order)</b>.
-23) <b>Save</b>.
-24) Right-click your plugin and choose <b>Apply Script...</b>
-25) Choose <b>1000101-Apply_Version_Control_Information_To_Forms</b> from the <b>Script</b> dropdown, then click <b>OK</b>.
-26) <b>Save</b>.
-27) Exit FO4Edit.
+11) Choose <b>01_CopyCELLsIntoAutoPreCalc</b> from the <b>Script</b> dropdown, then click <b>OK</b> (This removes any generated previsibines).
+12) Click <b>No</b> in the Confirm dialogue box (this selection uses the last loaded plugin, which is your patch plugin). <b>NOTE:</b> This may not actually do anything if the mod author hasn't regenerated previsibines, but I normally go ahead and run it anyway.
+13) <b>Save</b>.
+14) Right-click your new plugin and choose <b>Apply Script...</b>
+15) Choose <b>02_RemovePreCalcFromCELLs</b> from the <b>Script</b> dropdown, then click <b>OK</b> (This removes any generated previsibines). 
+16) <b>Save</b>.
+17) Right-click your new plugin and choose <b>Apply Script...</b>
+18) Choose <b>Apply Material Swap</b> from the <b>Script</b> dropdown, then click <b>OK</b>.
+19) <b>Save</b>.  
+20) Right-click your plugin and choose <b>Add Masters...</b>.
+21) Select all options (should be every plugin listed above except Fallout4.esm & YourPlugin.esp) and click <b>OK</b>.
+22) <b>Save</b>.
+23) Right-click your plugin and choose <b>Sort Masters (to match current load order)</b>.
+24) <b>Save</b>.
+25) Right-click your plugin and choose <b>Apply Script...</b>
+26) Choose <b>1000101-Apply_Version_Control_Information_To_Forms</b> from the <b>Script</b> dropdown, then click <b>OK</b>.
+27) <b>Save</b>.
+28) Exit FO4Edit.
