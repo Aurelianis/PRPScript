@@ -39,7 +39,7 @@ Make sure you have the following plugins enabled in this order. If you are using
 18) Choose <b>Apply Material Swap</b> from the <b>Script</b> dropdown, then click <b>OK</b>.
 19) <b>Save</b>.  
 20) Right-click your plugin and choose <b>Add Masters...</b>.
-21) Select all options (should be every plugin listed above except Fallout4.esm & YourPlugin.esp) and click <b>OK</b>.
+21) Select all options (should be every plugin listed above except Fallout4.esm & YourPlugin.esp) in the <b>Which masters do you want to add?</b> dialogue box and click <b>OK</b>.
 22) <b>Save</b>.
 23) Right-click your plugin and choose <b>Sort Masters (to match current load order)</b>.
 24) <b>Save</b>.
