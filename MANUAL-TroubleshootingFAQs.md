@@ -7,7 +7,7 @@
 2) Launches xEdit so that you can apply the 03_MergeCombinedObjects script on the patch plugin.
 3) Deletes CombinedObject.esp
 4) Compresses psg to csg and then deletes the psg file.
-5) Adds the precombined meshes to a ba2 archive file to speed up previs generation.
+5) Adds the precombined meshes to a ba2 archive file to speed up previs generation. There is a limit to the number of precombined meshes you can have as loose files when generating Previs, so packing them ensures you don't reach this limit.
 6) Generates CDX.
 7) Generates Previs.
 8) Launches xEdit so you can apply the 05_MergePreVis_patched script on the patch plugin.
