@@ -3,7 +3,7 @@
 ## FAQs
 
 ### How do I know if Precombines have been broken?
-Easiest way is to open the plugin in xEdit and expand the Cell and/or Worldspace records. If any of the placed objects have brackets like this [Placed Object] then precombines have been broken. You can then check the VISI - PreVis Files Timestamp and PCMB - Precombined Files Timestamp to see if they have been regenerated (the dates won't match Fallout4.esm (or the DLCs if it's a cell from one of them).
+The easiest way is to open the plugin in xEdit and expand the Cell and/or Worldspace records. If any of the placed objects have brackets like this [Placed Object] then objects that were part of precombines have been edited. You can then check the VISI - PreVis Files Timestamp and PCMB - Precombined Files Timestamp to see if they have been regenerated (the dates won't match Fallout4.esm or the DLCs if it's a cell from one of them). If previsibines have been regenerated, the brackets just mean that that item is part of the regenerated precombine meshes.
 
 ## Troubleshooting
 
