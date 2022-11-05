@@ -37,9 +37,7 @@ Make sure you have the following plugins enabled in this order. If you are using
 13) <b>Save</b>.
 14) Right-click your new plugin and choose <b>Apply Script...</b>
 15) Choose <b>02_RemovePreCalcFromCELLsLeaveNoPrevis</b> from the <b>Script</b> dropdown, then click <b>OK</b> (This removes any generated previsibines). 
-16) <b>Save</b>.
-
-
+16) <b>Save</b>.<br>
 17) Right-click your new plugin and choose <b>Apply Script...</b>
 18) Choose <b>Apply Material Swap</b> from the <b>Script</b> dropdown, then click <b>OK</b>.
 19) <b>Save</b>.  
