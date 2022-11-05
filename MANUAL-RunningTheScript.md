@@ -5,6 +5,9 @@ You should have prepared your plugin using the appropriate instructions:
 [New Plugins](https://github.com/Aurelianis/PRPPatchingScript/blob/main/MANUAL-NewPlugin.md)<br>
 [Patching Existing Plugin](https://github.com/Aurelianis/PRPPatchingScript/blob/main/MANUAL-PatchingPlugins.md)
 
+### Before running the script, backup the plugin so you can easily revert back if something goes wrong. 
+### Also, it's a good idea to check your plugin for errors in xEdit.
+
 ## Run the Script
 
 1) Open <b>Windows PowerShell</b>
