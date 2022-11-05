@@ -30,9 +30,9 @@ Write-Host "Using $CreationKit for generation"
 
 #Start generating precombines
 if (Test-Path $CreationKit) {
-  # Write-Host -f Yellow "Generating Precombines..."
-  # Start-Process -FilePath $CreationKit -ArgumentList "-GeneratePrecombined:$PatchFileName clean all" -wait
-  # Write-Host -f Green "Done"
+   Write-Host -f Yellow "Generating Precombines..."
+   Start-Process -FilePath $CreationKit -ArgumentList "-GeneratePrecombined:$PatchFileName clean all" -wait
+   Write-Host -f Green "Done"
    Write-Host -f Yellow "xEdit is now launching. Click OK, then Run 03_MergeCombinedObjects on $($PatchFileName). Save and exit."
    Start-Process -FilePath $xEditPath -ArgumentList "-nobuildrefs -quickedit:CombinedObjects.esp" -wait
    Remove-item "$($FO4DataPath)\CombinedObjects.esp"
