@@ -28,6 +28,9 @@ Make sure you have the following plugins enabled in this order. If you are using
 7) Select <b>new file.esp</b> in the <b>Which files do you want to add these records to?</b> dialogue box and click <b>OK</b>
 8) Enter the name of your patch file (do not include the extension) and click <b>OK</b>. I normally use PRP-OriginalPluginName.
 9) <b>Save</b>
+
+#### If the plugin already regenerated previsibines, run the following scripts. If not, skip 10-16
+
 10) Right-click your new plugin and choose <b>Apply Script...</b>
 11) Choose <b>01_CopyCELLsIntoAutoPreCalc</b> from the <b>Script</b> dropdown, then click <b>OK</b> (This removes any generated previsibines).
 12) Click <b>No</b> in the Confirm dialogue box (this selection uses the last loaded plugin, which is your patch plugin). <b>NOTE:</b> This may not actually do anything if the mod author hasn't regenerated previsibines, but I normally go ahead and run it anyway.
@@ -35,6 +38,8 @@ Make sure you have the following plugins enabled in this order. If you are using
 14) Right-click your new plugin and choose <b>Apply Script...</b>
 15) Choose <b>02_RemovePreCalcFromCELLsLeaveNoPrevis</b> from the <b>Script</b> dropdown, then click <b>OK</b> (This removes any generated previsibines). 
 16) <b>Save</b>.
+
+
 17) Right-click your new plugin and choose <b>Apply Script...</b>
 18) Choose <b>Apply Material Swap</b> from the <b>Script</b> dropdown, then click <b>OK</b>.
 19) <b>Save</b>.  
