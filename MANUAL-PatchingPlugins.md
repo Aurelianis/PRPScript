@@ -47,3 +47,7 @@ Make sure you have the following plugins enabled in this order. If you are using
 26) Choose <b>1000101-Apply_Version_Control_Information_To_Forms</b> from the <b>Script</b> dropdown, then click <b>OK</b>.
 27) <b>Save</b>.
 28) Exit FO4Edit.
+
+## Run the PowerShell script
+
+[Running the PowerShell Script](https://github.com/Aurelianis/PRPPatchingScript/blob/main/MANUAL-RunningTheScript.md)
