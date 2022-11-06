@@ -31,7 +31,7 @@ Write-Host "Using $CreationKit for generation"
 #Start generating precombines
 if (Test-Path $CreationKit) {
    Write-Host -f Yellow "Generating Precombines..."
-   Start-Process -FilePath $CreationKit -ArgumentList "-GeneratePrecombined:$PatchFileName clean all" -wait
+   Start-Process -FilePath $CreationKit -ArgumentList "-GeneratePrecombined:$PatchFileName filtered all" -wait
    Write-Host -f Green "Done"
    Write-Host -f Yellow "xEdit is now launching. Click OK, then Run 03_MergeCombinedObjects on $($PatchFileName). Save and exit."
    Start-Process -FilePath $xEditPath -ArgumentList "-nobuildrefs -quickedit:CombinedObjects.esp" -wait
@@ -60,7 +60,7 @@ Write-Host -f Green "Done"
 #GenerateCDX
 if (Test-Path $CreationKit) {
    Write-Host -f Yellow "Generating CDX..."
-   Start-Process -FilePath $CreationKit -ArgumentList "-buildcdx:$PatchFileName clean all" -wait
+   Start-Process -FilePath $CreationKit -ArgumentList "-buildcdx:$PatchFileName filtered all" -wait
    Write-Host -f Green "Done"
 } else {
    Write-Host -f Red "$($CreationKit) not found. Please make sure you followed the initial setup and try again."
@@ -69,7 +69,7 @@ if (Test-Path $CreationKit) {
 #Generate PREVIS
 if (Test-Path $CreationKit) {
    Write-Host -f Yellow "Generating PreVis..."
-   Start-Process -FilePath $CreationKit -ArgumentList "-GeneratePreVisdata:$PatchFileName clean all" -wait
+   Start-Process -FilePath $CreationKit -ArgumentList "-GeneratePreVisdata:$PatchFileName filtered all" -wait
    Write-Host -f Green "Done"
    Write-Host -f Yellow "xEdit is now launching. Click OK, then Run 05_MergePreVis_patched on $($PatchFileName). Save and exit."
    Start-Process -FilePath $xEditPath -ArgumentList "-nobuildrefs -quickedit:PreVis.esp" -wait
