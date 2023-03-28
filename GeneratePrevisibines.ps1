@@ -31,7 +31,7 @@ Write-Host "Using $CreationKit for generation"
 #Start generating precombines
 if (Test-Path $CreationKit) {
    Write-Host -f Yellow "Generating Precombines..."
-   Start-Process -FilePath $CreationKit -ArgumentList "-GeneratePrecombined:$PatchFileName filtered all" -wait
+   Start-Process -FilePath $CreationKit -ArgumentList "-GeneratePrecombined:$PatchFileName clean all" -wait
    Write-Host -f Green "Done"
    Write-Host -f Yellow "xEdit is now launching. Click OK, then Run 03_MergeCombinedObjects on $($PatchFileName). Save and exit."
    Start-Process -FilePath $xEditPath -ArgumentList "-nobuildrefs -quickedit:CombinedObjects.esp" -wait
@@ -52,15 +52,17 @@ if (Test-Path $CreationKit) {
 }
 
 #Create Temp Archive
-Write-Host -f Yellow "Creating Archive to accelerate generation..."
-Start-Process -FilePath $Archive2 -ArgumentList "`"$($FO4DataPath)\Meshes`" -c=`"$($FO4DataPath)\$PatchName - Main.ba2`"" -wait
-Remove-Item -Path "$($FO4DataPath)\Meshes\" -Recurse
-Write-Host -f Green "Done"
+#Write-Host -f Yellow "Creating Archive to accelerate generation..."
+#Start-Process -FilePath $Archive2 -ArgumentList "`"$($FO4DataPath)\Meshes`" -c=`"$($FO4DataPath)\$PatchName - Main.ba2`"" -wait
+#Remove-Item -Path "$($FO4DataPath)\Meshes\" -Recurse
+#Write-Host -f Green "Done"
+
+[void](Read-Host 'Create Archive... Press Enter to continue…')
 
 #GenerateCDX
 if (Test-Path $CreationKit) {
    Write-Host -f Yellow "Generating CDX..."
-   Start-Process -FilePath $CreationKit -ArgumentList "-buildcdx:$PatchFileName filtered all" -wait
+   Start-Process -FilePath $CreationKit -ArgumentList "-buildcdx:$PatchFileName clean all" -wait
    Write-Host -f Green "Done"
 } else {
    Write-Host -f Red "$($CreationKit) not found. Please make sure you followed the initial setup and try again."
@@ -69,7 +71,7 @@ if (Test-Path $CreationKit) {
 #Generate PREVIS
 if (Test-Path $CreationKit) {
    Write-Host -f Yellow "Generating PreVis..."
-   Start-Process -FilePath $CreationKit -ArgumentList "-GeneratePreVisdata:$PatchFileName filtered all" -wait
+   Start-Process -FilePath $CreationKit -ArgumentList "-GeneratePreVisdata:$PatchFileName clean all" -wait
    Write-Host -f Green "Done"
    Write-Host -f Yellow "xEdit is now launching. Click OK, then Run 05_MergePreVis_patched on $($PatchFileName). Save and exit."
    Start-Process -FilePath $xEditPath -ArgumentList "-nobuildrefs -quickedit:PreVis.esp" -wait
@@ -79,11 +81,11 @@ if (Test-Path $CreationKit) {
 }
 
 #ARCHIVE
-Write-Host -f Yellow "Adding New Files to Archive..." 
-Start-Process -FilePath $Archive2 "`"$($FO4DataPath)\$PatchName - Main.ba2`" -e=`"$($FO4DataPath)`"" -wait
-Start-Process -FilePath $Archive2 -ArgumentList "`"$($FO4DataPath)\Meshes`",`"$($FO4DataPath)\Vis`" -c=`"$($FO4DataPath)\$PatchName - Main.ba2`"" -wait
-Remove-Item -Path "$($FO4DataPath)\Vis\","$($FO4DataPath)\Meshes\" -Recurse
-Write-Host -f Green "Done"
+#Write-Host -f Yellow "Adding New Files to Archive..." 
+#Start-Process -FilePath $Archive2 "`"$($FO4DataPath)\$PatchName - Main.ba2`" -e=`"$($FO4DataPath)`"" -wait
+#Start-Process -FilePath $Archive2 -ArgumentList "`"$($FO4DataPath)\Meshes`",`"$($FO4DataPath)\Vis`" -c=`"$($FO4DataPath)\$PatchName - Main.ba2`"" -wait
+#Remove-Item -Path "$($FO4DataPath)\Vis\","$($FO4DataPath)\Meshes\" -Recurse
+#Write-Host -f Green "Done"
 	
 #Clean ESP
 Write-Host -f Yellow "Cleaning the ESP..."
